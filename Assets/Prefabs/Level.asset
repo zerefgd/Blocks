@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40c58aa78a9f5f64ca11716da2cda87f, type: 3}
+  m_Name: Level
+  m_EditorClassIdentifier: 
+  Rows: 4
+  Columns: 4
+  Data: 02000000020000000200000002000000010000000100000001000000020000000100000003000000010000000300000001000000030000000300000003000000
+  BlockRows: 4
+  BlockColumns: 8
+  Blocks:
+  - Id: 1
+    StartPos: {x: 0, y: 6}
+    CenterPos: {x: 1, y: 1}
+    BlockPositions:
+    - {x: 0, y: -1}
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: -1}
+    - {x: 1, y: 1}
+    - {x: 2, y: -1}
+  - Id: 2
+    StartPos: {x: 0, y: 2}
+    CenterPos: {x: 0, y: 2}
+    BlockPositions:
+    - {x: 0, y: -2}
+    - {x: 0, y: -1}
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}
+    - {x: 1, y: 1}
+  - Id: 3
+    StartPos: {x: 3, y: 3}
+    CenterPos: {x: 3, y: 2}
+    BlockPositions:
+    - {x: -1, y: -1}
+    - {x: -1, y: 1}
+    - {x: 0, y: -1}
+    - {x: 0, y: 0}
+    - {x: 0, y: 1}

@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3820478902218604488
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4606379158996617902}
+  - component: {fileID: 2149215920693154675}
+  m_Layer: 0
+  m_Name: Block
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4606379158996617902
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3820478902218604488}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2149215920693154675
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3820478902218604488}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ee0d9f2653afb804a9c01d2ff4faa3d0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _blockPrefab: {fileID: 3913631640478388921, guid: a21c3c1a416599b45bb550b54fe9f923, type: 3}
+  _blockSprites:
+  - {fileID: 21300000, guid: b72e9b79e62526a4b9a8c3fe429bdff9, type: 3}
+  - {fileID: 21300000, guid: 4a6537fff20b1ba4f9b5c1170bf3bd81, type: 3}
+  - {fileID: 21300000, guid: 36c794b4c6cf7ec4b91b8bb62b11d95c, type: 3}
+  - {fileID: 21300000, guid: 2547e104c2dc69c42a4535059a05c95c, type: 3}
+  - {fileID: 21300000, guid: 96a99b5b91fb73d4ab6e6691c0a55149, type: 3}
+  - {fileID: 21300000, guid: a1a54548772c41447be6bca29b1af2ca, type: 3}
+  - {fileID: 21300000, guid: cbe6023c2ce8ffc47be08d30078349ef, type: 3}
+  - {fileID: 21300000, guid: 62f01d395d16b6440a675b27596d7158, type: 3}
+  _blockSpawnSize: 0.5
